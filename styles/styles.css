@@ -183,11 +183,19 @@
     margin-bottom: 30px;
 }
 
+
+
+
+
+
 .satelite{
     width: 408;
     border-radius: 16;
 }
-
+.img-satelite
+{
+    border-radius: 16px;
+}
 .rc-btn{
     width: 139px;
     height: 48px;
@@ -195,6 +203,10 @@
     background-color: #006A50;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+}
+.rc-btn:hover{
+    background-color: #004f38;
 }
 
 .rc-descrip{
