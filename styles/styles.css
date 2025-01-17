@@ -29,10 +29,14 @@
     color: white;
     background-color: rgb(9, 104, 15);
     border: #006A50;
-
-
-
+    cursor: pointer;
 }
+
+.top-heading-button:hover{
+    background-color: #004f38;
+}
+
+
 .top-heading-container{
     margin-left: 160px;
     margin-right: 160px;
@@ -67,7 +71,11 @@
     background-color: #006A50;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
     
+}
+.thc-btn:hover{
+    background-color: #004f38;
 }
 
 /* The Vision of Future */
@@ -80,6 +88,9 @@
 .tvf-body{
     margin-left: 160px;
     margin-right: 160px;
+    font-size: small;
+    color: #0E0E0E;
+    opacity: 60%;
 }
 
 .tvf-cards{
@@ -88,16 +99,45 @@
     margin-right: 160px;
     justify-content: space-around;
     gap: 20px;
-    background-color: antiquewhite;
     box-shadow: #0E0E0E;
 
 }
+.tvf-card0{
+    background-color:#C6E4D6;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.tvf-para{
+    font-size: small;
+    color: #0E0E0E;
+    opacity: 60%;
+}
+
+.tvf-btn{
+    width: 116px;
+    height: 52px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(9, 104, 15);
+    border: #006A50;
+    cursor: pointer;
+}
+.tvf-btn:hover {
+    background-color: #004f38;}
 
 
 
 /* Yunus Comment */
 
+.yunus-para{
+    font-size:small;
+    color: #0E0E0E;
+    opacity: 60%;
 
+}
 .yunus-comment{
     margin-top: 50px;
     padding-top: 48px;
@@ -123,9 +163,15 @@
 /* Recent News */
 
 .rc{
+    margin-top: 80px;
     margin-left: 160px;
     margin-right:160px ;
     margin-bottom: 30px; 
+}
+.rc-para{
+    font-size: small;
+    color: #0E0E0E;
+    opacity: 60%;
 }
 
 .rc-card{
@@ -304,6 +350,28 @@
         color: #666;
         margin-top: 15px;
     }
+
+    /* Last Footer  */
+
+    .footer-sec{
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
     
+    .footer-title{
+        text-align: center;
+    }
+
+    .footer-icon{
+        width: 100%;
+        
+        padding: 10px 15px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 
     
